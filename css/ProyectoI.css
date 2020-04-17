@@ -1,23 +1,38 @@
 body{
-    background-color: black;
+    background-color:white;
     
 }
+@media(min-width: 400px){
+    li{list-style-type: none;
+    }
+    
+    .grid{
+    display: grid;
+}
+    #Barrita{display:grid;
+    grid-template-columns: 0.5fr 1.5fr 1fr 1.5fr 0.5fr;
+}
+    .BarraTop{
+        background-color: pink;
+        width: 100%;
+        height: 200px;
+    }
+    #Perfil{display: flex; justify-content: flex-end;}
+    #Logo{display: flex; justify-content: center;}
+    #ParaTi{display: flex; justify-content: center;}
+    #Biblio{display: flex; justify-content: center;}
+    }
 #blue{
  color: lightskyblue;
  font-size: 100px;
 }
-.grid{
-    display: grid;
-}
+
 #sol{
     font-size: 500px;
     color: blanchedalmond;
 }
 .grid-container{ 
     grid-template-rows: 7% 16% 46% 31% ;
-}
-.barratop{
-    background-color: pink;
 }
 .row1{ grid-template-rows: 10px 150px;
 background-color: skyblue;
