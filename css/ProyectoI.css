@@ -21,12 +21,10 @@ body{
     #Logo{display: flex; justify-content: center;}
     #ParaTi{display: flex; justify-content: center;}
     #Biblio{display: flex; justify-content: center;}
-    }
 #blue{
  color: lightskyblue;
  font-size: 100px;
 }
-
 #sol{
     font-size: 500px;
     color: blanchedalmond;
@@ -42,4 +40,5 @@ background-color: burlywood;
 }
 .row3{grid-template-rows: 10px 150px 150px ;
 background-color: brown;
+}
 }
