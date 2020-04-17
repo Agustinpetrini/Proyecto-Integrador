@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+    
+}
+#blue{
+ color: lightskyblue;
+ font-size: 100px;
+}
+.grid{
+    display: grid;
+}
+#sol{
+    font-size: 500px;
+    color: blanchedalmond;
+}
+.grid-container{ 
+    grid-template-rows: 7% 16% 46% 31% ;
+}
+.barratop{
+    background-color: pink;
+}
+.row1{ grid-template-rows: 10px 150px;
+background-color: skyblue;
+}
+.row2{grid-template-rows: 10px 150px 150px 150px;
+background-color: burlywood;
+}
+.row3{grid-template-rows: 10px 150px 150px ;
+background-color: brown;
+}
