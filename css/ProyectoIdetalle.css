@@ -1,0 +1,84 @@
+body{background-color: black;
+   
+    
+}
+.grid{
+    display: grid;
+}
+@media(min-width: 400px){
+    li{list-style-type: none;
+    }
+    
+    .grid{
+    display: grid;
+}
+.grid-container{ 
+    grid-template-rows: 5% 35% 60%;
+    
+}
+    #Barrita{display:grid;
+    grid-template-columns: 0.5fr 1.5fr 1fr 1.5fr 0.5fr;
+       position: fixed;
+        width: 1200px;
+        height: 50px;
+        background-color: rgb(139, 139, 139);
+        z-index: 1;
+}
+    #Perfil{display: flex; justify-content: flex-end;}
+    #Logo{display: flex; justify-content: center;}
+    #ParaTi{display: flex; justify-content: center;}
+    #Biblio{display: flex; justify-content: center;}
+    .grid{
+        display: grid;
+    }
+    .flex{
+     display: flex;
+ }
+
+.row1{ 
+    
+    height: 300px;
+    box-sizing: border-box;
+margin: 20px 70px;
+position: relative; 
+background-color:rgb(139, 139, 139);
+}
+.image{
+    width: 160px;
+    position: relative;
+    left: 230px;
+    top: 55px;
+}
+.subrow1{ width: 392px;
+    height: 80px;
+    flex-direction: column;
+    position: relative;
+    top: -70px;
+    left: 413px;
+}
+.titulo{
+    margin: 0px 0px 10px 0px;
+}
+.info{
+    margin: 0px 0px 5px 0px;
+}
+.subrow2{ width: 392px;
+    height: 40px;
+    flex-direction: row;
+    position: relative;
+    left: 235px;
+    top: -25px;
+}
+.row2{
+    width: 100%;
+    height: 800px;
+}
+.cancion{
+    width: 800px;
+    height: 40px;
+    color: white;
+    position: relative;
+    left: 100px;
+    justify-content: space-between;
+}
+}
