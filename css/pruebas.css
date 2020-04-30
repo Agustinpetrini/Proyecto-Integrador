@@ -19,5 +19,5 @@ grid-template-columns: 0.5fr 1.5fr 1fr 1.5fr 0.5fr;}
 #Perfil{display: flex; justify-content: flex-end;}
 #Logo{display: flex; justify-content: center;}
 #ParaTi{display: flex; justify-content: center;}
-#Biblio{display: flex; justify-content: center;}
+#playlist{display: flex; justify-content: center;}
 }
