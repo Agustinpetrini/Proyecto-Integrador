@@ -1,7 +1,8 @@
 body{
     background-color: black;
 }
-    @media (min-width:760px){
+
+    @media (min-width:400px){
       
             body{
                 background-color: rgb(37, 37, 37);}
@@ -60,7 +61,9 @@ body{
                                        h3{
                                            color: crimson;
                                        }
-
+@media (min-width:700) {
+    
+}
     @media (min-width:1000){
          body{
             background-color: rgb(37, 37, 37); }
