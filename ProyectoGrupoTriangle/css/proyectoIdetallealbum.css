@@ -36,7 +36,8 @@ background-position: center;}
     
         #grid-container{ width: 100%;
             height: 100%;
-        }
+            grid-template-rows: 40% 40% 20%;
+            }
 
         #Playlists{
             background-color: rgb(37, 37, 37);
@@ -51,6 +52,10 @@ background-position: center;}
             display: flex;
     justify-content: flex-end;
     position: static;
+        }
+        .tamaño{
+            height: 150px;
+            width: 150px;
         }
         #Texto-playlist{padding-left: 5px;
         font-size: large;}
@@ -118,120 +123,146 @@ background-position: center;}
             text-decoration: none;
              
         }
-@media(min-width: 410px){
-li{list-style-type: none;}
-body{font-family: 'Baloo Tammudu 2', cursive;
-    color: crimson;
-margin: 0;
-background-color: rgb(37, 37, 37);
-height: 100%;
-width: 100%;}
-
-#Barrita{ color: crimson;
-    background-color: black;
-    height: 38px;
-    display:grid;
-grid-template-columns: 0.5fr 1.5fr 1fr 1.5fr 0.5fr;}
-
-#BarraTop{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    margin: 0;
-}
-
-#Perfil{display: flex; justify-content: center;
-font-size: 20px;
-padding-top: 8px;}
-#Logo{display: flex; justify-content: center;
-    font-size: 20px;}
-#ParaTi{display: flex; justify-content: center;
-font-size: 20px;}
-#Biblio{display: flex; justify-content: center;
-font-size: 20px;}
-#Ajust{display: flex; justify-content: center;
-    font-size: 20px;
-    padding-top: 8px;}
-    
-    #grid-container{ width: 100%;
-        height: 100%;
-
-    }
-    
-    #Playlists{
-        background-color: rgb(37, 37, 37);
-        padding-top: 38px;
+        #Footer{background-color: black;
+            display: grid;
+        grid-template-columns: 0.7fr 1fr;
+        font-size: small;
+        color: rgb(255, 255, 255);
+        position: fixed;
+        bottom: 0;
         width: 100%;
-    }
-    #Tus-playlists{font-size: x-large;
-        padding-left: 10px;}
-    #Modelo-playlist{display: grid;
-        grid-template-columns: 45% 55%;}
-        #Foto{
-            display: flex;
-    justify-content: flex-end;
         }
-    #Texto-playlist{padding-left: 5px;
-    font-size: large;}
-    #Nombre-p{font-size: 10px;
-    height: 30px;}
-    #N-de-temas{color: white;
-        font-size: 12px;}
-    #Artistas{color: white;
-        font-size: 12px;
-    line-height: 15px;}
-    #row1{
-        background-color: rgb(37, 37, 37);
-        margin: 50px 0px 10px 0px;
-        height: 100%;
-        width: 100%;
-    }
-    .subrow1{display: grid;
-        grid-template-columns: 50% 50%;
-        height: 200px;
-        width: 100%;
-        background-position: center;
-    }
-    .infocancion{
-        margin: 0px 0px 0px 10px;
-    }
-    #subrow2{ display: flex;
-        height: 50px;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
-    .botonreproducir{ background-color: white;
-         background-repeat: no-repeat;
-        background-position: 5%;
-        border-radius: 5%;
-        background-size: 100% auto;
-        padding: 5px;
-        margin: 4px;
-     }
-    .botonbliblioteca{color: white;
-        border-color: white;
-        border-width: 1px;
-        border-style: solid;
-        border-radius: 3px;
-        padding: 5px;
-        margin: 4px;
-    }
-    .cancion{
-        height: 40px;
-        justify-content: space-between;
-        margin: 20px;
-        display:flex;
-    }
-    .letra{
-        font-family: 'Noto Sans SC', sans-serif;
-    }
-    a{
-        color:crimson;
-        text-decoration: none;
-         
-    }
+        
+        #LogoDeezer{width: 120px;
+        height: 70px;
 }
+        
+        #LogoFooter{height: 75px;
+        display: flex;
+        justify-content: flex-end;}
+        #Nombres-Integrantes{height: 60px;
+        padding-top: 18px;}
+
+        @media(min-width: 410px){
+            li{list-style-type: none;}
+            body{font-family: 'Baloo Tammudu 2', cursive;
+                color: crimson;
+            margin: 0;
+            background-color: rgb(37, 37, 37);
+            height: 100%;
+            width: 100%;}
+            
+            #Barrita{ color: crimson;
+                background-color: black;
+                height: 38px;
+                display:grid;
+            grid-template-columns: 0.5fr 1.5fr 1fr 1.5fr 0.5fr;}
+            
+            #BarraTop{
+                position: fixed;
+                top: 0;
+                width: 100%;
+                margin: 0;
+            }
+            
+            #Perfil{display: flex; justify-content: center;
+            font-size: 20px;
+            padding-top: 8px;}
+            #Logo{display: flex; justify-content: center;
+                font-size: 20px;}
+            #ParaTi{display: flex; justify-content: center;
+            font-size: 20px;}
+            #Biblio{display: flex; justify-content: center;
+            font-size: 20px;}
+            #Ajust{display: flex; justify-content: center;
+                font-size: 20px;
+                padding-top: 8px;}
+                
+                #grid-container{ width: 100%;
+                    height: 100%;
+            
+                }
+                
+                #Playlists{
+                    background-color: rgb(37, 37, 37);
+                    padding-top: 38px;
+                    width: 100%;
+                }
+                #Tus-playlists{font-size: x-large;
+                    padding-left: 10px;}
+                #Modelo-playlist{display: grid;
+                    grid-template-columns: 45% 55%;}
+                    #Foto{
+                        display: flex;
+                justify-content: flex-end;
+                position: static;
+                    }
+                    .tamaño{
+                        height: 150px;
+                        width: 150px;
+                    }
+                #Texto-playlist{padding-left: 5px;
+                font-size: large;}
+                #Nombre-p{font-size: 10px;
+                height: 30px;}
+                #N-de-temas{color: white;
+                    font-size: 12px;}
+                #Artistas{color: white;
+                    font-size: 12px;
+                line-height: 15px;}
+                #row1{
+                    background-color: rgb(37, 37, 37);
+                    margin: 50px 0px 10px 0px;
+                    height: 100%;
+                    width: 100%;
+                }
+                .subrow1{display: grid;
+                    grid-template-columns: 50% 50%;
+                    height: 170px;
+                    width: 100%;
+                    background-position: center;
+                }
+                .infocancion{
+                    margin: 0px 0px 0px 10px;
+                }
+                #subrow2{ display: flex;
+                    height: 50px;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .botonreproducir{ background-color: white;
+                     background-repeat: no-repeat;
+                    background-position: 5%;
+                    border-radius: 5%;
+                    background-size: 100% auto;
+                    padding: 5px;
+                    margin: 4px;
+                 }
+                .botonbliblioteca{color: white;
+                    border-color: white;
+                    border-width: 1px;
+                    border-style: solid;
+                    border-radius: 3px;
+                    padding: 5px;
+                    margin: 4px;
+                }
+                .cancion{
+                    height: 40px;
+                    justify-content: space-between;
+                    margin: 20px;
+                    display:flex;
+                }
+                .letra{
+                    font-family: 'Noto Sans SC', sans-serif;
+                }
+                a{
+                    color:crimson;
+                    text-decoration: none;
+                     
+                }
+            }
+
     @media(min-width: 700px){
         li{list-style-type: none;}
         body{font-family: 'Baloo Tammudu 2', cursive;
@@ -277,24 +308,27 @@ font-size: 20px;}
                 grid-template-columns: 45% 55%;}
             #Foto{padding-left: 150px;
             }
+            .tamaño{
+                height: 200px;
+                width: 200px;
+            }
             #Texto-playlist{padding-left: 5px;
             font-size: large;}
-            #Nombre-p{font-size: 10px;
-            height: 30px;}
+            #Nombre-p{font-size: 20px;
+            height: 60px;}
             #N-de-temas{color: white;
-                font-size: 12px;}
+                font-size: 22px;}
             #Artistas{color: white;
-                font-size: 12px;
+                font-size: 22px;
             line-height: 15px;}
              #row1{
                 background-color: rgb(37, 37, 37);
                 padding-top: 38px;
                 margin: 20px 30px 0px 0px;
-                height: 100%;
             }
             .subrow1{display: grid;
                 grid-template-columns: 50% 50%;
-                height: 200px;
+                height: 220px;
             }
             .infocancion{
                 margin: 0px 0px 0px 20px;
@@ -312,28 +346,17 @@ font-size: 20px;}
                 margin: 20px;
                 display:flex;
             }
-            .subrow2{ display: flex;
-                height: 35px;
-                justify-content: center;
-                width: 420px;
-                flex-direction: row;
-                position: relative;
-            }
             .botonreproducir{ background-color: white;
                  background-repeat: no-repeat;
                 background-position: 5%;
                 border-radius: 5%;
                 background-size: 100% auto;
-                padding: 5px;
-                margin: 4px;
              }
             .botonbliblioteca{color: white;
                 border-color: white;
                 border-width: 1px;
                 border-style: solid;
                 border-radius: 3px;
-                padding: 5px;
-                margin: 4px;
             }
             .letra{
                 font-family: 'Noto Sans SC', sans-serif;
@@ -345,116 +368,115 @@ font-size: 20px;}
             }
         } 
         
-       
- @media(min-width: 1000px){
-    li{list-style-type: none;}
-    body{font-family: 'Baloo Tammudu 2', cursive;
-        color: crimson;
-    margin: 0;
-background-color: rgb(37, 37, 37);
-height: 100%;
-width: 100%;}
-    
-    #Barrita{ color: crimson;
-        background-color: black;
-        height: 38px;
-        display:grid;
-    grid-template-columns: 0.5fr 1.5fr 1fr 1.5fr 0.5fr;}
-
-    #BarraTop{
-        position: fixed;
-        top: 0;
-        width: 100%;
-        margin: 0;
-    }
-
-    #Perfil{display: flex; justify-content: center;
-    font-size: 20px;
-    padding-top: 8px;}
-    #Logo{display: flex; justify-content: center;
-        font-size: 20px;
-    }
-    #ParaTi{display: flex; justify-content: center;
-    font-size: 20px;}
-    #Biblio{display: flex; justify-content: center;
-    font-size: 20px;}
-    #Ajust{display: flex; justify-content: center;
-        font-size: 20px;
-        padding-top: 8px;}
+        @media(min-width: 1200px){
+            li{list-style-type: none;}
+            body{font-family: 'Baloo Tammudu 2', cursive;
+                color: crimson;
+            margin: 0;
+        background-color: rgb(37, 37, 37);
+        height: 100%;
+        width: 100%;}
+            
+            #Barrita{ color: crimson;
+                background-color: black;
+                height: 38px;
+                display:grid;
+            grid-template-columns: 0.5fr 1.5fr 1fr 1.5fr 0.5fr;}
         
-        #grid-container{ width: 100%;
-            height: 100%;
-
-        }
+            #BarraTop{
+                position: fixed;
+                top: 0;
+                width: 100%;
+                margin: 0;
+            }
         
-        #Playlists{
-            background-color: rgb(37, 37, 37);
-            padding-top: 38px;
-            width: 100%;
-        }
-        #Tus-playlists{font-size: x-large;
-            padding-left: 10px;}
-        #Modelo-playlist{display: grid;
-            grid-template-columns: 45% 55%;}
-        #Foto{padding-left: 10px;}
-        #Texto-playlist{padding-left: 5px;
-        font-size: large;}
-        #Nombre-p{font-size: 10px;
-        height: 30px;}
-        #N-de-temas{color: white;
-            font-size: 12px;}
-        #Artistas{color: white;
-            font-size: 12px;
-        line-height: 15px;}
-         #row1{
-            background-color: rgb(37, 37, 37);
-            padding-top: 38px;
-            margin: 20px 30px 0px 0px;
-            height: 100%;
-        }
-        .subrow1{display: grid;
-            grid-template-columns: 50% 50%;
-            height: 200px;
-        }
-        .infocancion{
-            margin: 0px 0px 0px 30px;
-        }
-        .subrow2{ display: flex;
-            height: 40px;
-            flex-direction: row;
-            position: relative;
-            justify-content: space-between;
-            margin: 0px 0px 50px 10px;
-        }
-        .cancion{
-            height: 40px;
-            justify-content: space-between;
-            margin: 20px;
-            display:flex;
-        }
-        .subrow2{ width: 392px;
-            height: 20px;
-            flex-direction: row;
-            position: relative;
-        }
-        .botonreproducir{ background-color: white;
-             background-repeat: no-repeat;
-            background-position: 5%;
-            border-radius: 5%;
-            background-size: 100% auto;
-         }
-        .botonbliblioteca{color: white;
-            border-color: white;
-            border-width: 1px;
-            border-style: solid;
-            border-radius: 3px;
-        }
-        .letra{
-            font-family: 'Noto Sans SC', sans-serif;
-        }
-        a{
-            color:crimson;
-            text-decoration: none;
-             
-        }
-    }
+            #Perfil{display: flex; justify-content: center;
+            font-size: 20px;
+            padding-top: 8px;}
+            #Logo{display: flex; justify-content: center;
+                font-size: 20px;
+            }
+            #ParaTi{display: flex; justify-content: center;
+            font-size: 20px;}
+            #Biblio{display: flex; justify-content: center;
+            font-size: 20px;}
+            #Ajust{display: flex; justify-content: center;
+                font-size: 20px;
+                padding-top: 8px;}
+                
+                #grid-container{ width: 100%;
+                    height: 100%;
+        
+                }
+                
+                #Playlists{
+                    background-color: rgb(37, 37, 37);
+                    padding-top: 38px;
+                    width: 100%;
+                }
+                #Tus-playlists{font-size: x-large;
+                    padding-left: 10px;}
+                #Modelo-playlist{display: grid;
+                    grid-template-columns: 45% 55%;}
+                #Foto{padding-left: 10px;}
+                .tamaño{
+                    height: 280px;
+                    width: 280px;
+                }
+                #Texto-playlist{padding-left: 5px;
+                font-size: large;}
+                #Nombre-p{font-size: 25px;
+                height: 65px;}
+                #N-de-temas{color: white;
+                    font-size: 26px;}
+                #Artistas{color: white;
+                    font-size: 26px;
+                line-height: 15px;}
+                 #row1{
+                    background-color: rgb(37, 37, 37);
+                    padding-top: 38px;
+                    margin: 20px 30px 0px 0px;
+                    height: 100%;
+                }
+                .subrow1{display: grid;
+                    grid-template-columns: 50% 50%;
+                    height: 300px;
+                }
+                .infocancion{
+                    margin: 0px 0px 0px 30px;
+                }
+                .subrow2{
+                    display: flex;
+                    height: 40px;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    margin: 0px 0px 50px 10px;
+                }
+                .cancion{
+                    height: 40px;
+                    justify-content: space-between;
+                    margin: 20px;
+                    display:flex;
+                }
+                .botonreproducir{ background-color: white;
+                     background-repeat: no-repeat;
+                    background-position: 5%;
+                    border-radius: 5%;
+                    background-size: 100% auto;
+                 }
+                .botonbliblioteca{color: white;
+                    border-color: white;
+                    border-width: 1px;
+                    border-style: solid;
+                    border-radius: 3px;
+                }
+                .letra{
+                    font-family: 'Noto Sans SC', sans-serif;
+                }
+                a{
+                    color:crimson;
+                    text-decoration: none;
+                     
+                }
+            }
+

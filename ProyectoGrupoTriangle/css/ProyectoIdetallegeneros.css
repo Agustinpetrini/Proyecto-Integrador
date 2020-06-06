@@ -1,4 +1,4 @@
-  li{list-style-type: none;}
+li{list-style-type: none;}
     body{font-family: 'Baloo Tammudu 2', cursive;
         color: crimson;
     margin: 0;
@@ -61,11 +61,6 @@ background-position: center;}
         font-size: large;}
         #Nombre-p{font-size: 10px;
         height: 30px;}
-        #N-de-temas{color: white;
-            font-size: 12px;}
-        #Artistas{color: white;
-            font-size: 12px;
-        line-height: 15px;}
          #row1{
             background-color: rgb(37, 37, 37);
             margin: 50px 0px 10px 0px;
@@ -86,12 +81,6 @@ background-position: center;}
             flex-direction: column;
             justify-content: center;
             align-items: center;
-        }
-        .cancion{
-            height: 40px;
-            justify-content: space-between;
-            margin: 20px;
-            display:flex;
         }
         .botonreproducir{ background-color: white;
              background-repeat: no-repeat;
@@ -123,6 +112,26 @@ background-position: center;}
             text-decoration: none;
              
         }
+        #artistas-recomendados{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        flex-wrap: wrap;
+        justify-content: space-around;}
+            .artistas img{background-repeat: no-repeat;
+                background-position: 5%;
+                border-radius: 50%;
+                background-size: 100% auto;
+            }
+        div.show-more{
+            flex: row;
+            background-color:black;
+            padding: 5px 20px;
+            text-align: center;}
+            h3{
+                color: crimson;
+            }
+
         #Footer{background-color: black;
             display: grid;
         grid-template-columns: 0.7fr 1fr;
@@ -205,11 +214,6 @@ background-position: center;}
                 font-size: large;}
                 #Nombre-p{font-size: 10px;
                 height: 30px;}
-                #N-de-temas{color: white;
-                    font-size: 12px;}
-                #Artistas{color: white;
-                    font-size: 12px;
-                line-height: 15px;}
                 #row1{
                     background-color: rgb(37, 37, 37);
                     margin: 50px 0px 10px 0px;
@@ -316,11 +320,6 @@ background-position: center;}
             font-size: large;}
             #Nombre-p{font-size: 20px;
             height: 60px;}
-            #N-de-temas{color: white;
-                font-size: 22px;}
-            #Artistas{color: white;
-                font-size: 22px;
-            line-height: 15px;}
              #row1{
                 background-color: rgb(37, 37, 37);
                 padding-top: 38px;
@@ -427,11 +426,6 @@ background-position: center;}
                 font-size: large;}
                 #Nombre-p{font-size: 25px;
                 height: 65px;}
-                #N-de-temas{color: white;
-                    font-size: 26px;}
-                #Artistas{color: white;
-                    font-size: 26px;
-                line-height: 15px;}
                  #row1{
                     background-color: rgb(37, 37, 37);
                     padding-top: 38px;
@@ -479,3 +473,4 @@ background-position: center;}
                      
                 }
             }
+
