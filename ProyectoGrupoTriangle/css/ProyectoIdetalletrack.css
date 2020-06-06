@@ -391,6 +391,10 @@ background-position: center;}
                 #Modelo-playlist{display: grid;
                     grid-template-columns: 45% 55%;}
                 #Foto{padding-left: 10px;}
+                .tamaño{
+                    height: 250px;
+                    width: 250px;
+                }
                 #Texto-playlist{padding-left: 5px;
                 font-size: large;}
                 #Nombre-p{font-size: 10px;
