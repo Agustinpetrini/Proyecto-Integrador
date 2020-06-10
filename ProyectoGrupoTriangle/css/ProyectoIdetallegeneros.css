@@ -117,7 +117,9 @@ background-position: center;}
             flex-direction: row;
             justify-content: space-between;
         flex-wrap: wrap;
-        justify-content: space-around;}
+        justify-content: space-around;
+         margin: 20px;}
+
             .artistas img{background-repeat: no-repeat;
                 background-position: 5%;
                 border-radius: 50%;
@@ -132,26 +134,20 @@ background-position: center;}
                 color: crimson;
             }
 
-        #Footer{background-color: black;
-            display: grid;
-        grid-template-columns: 0.7fr 1fr;
-        font-size: small;
-        color: rgb(255, 255, 255);
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-        }
+            #Footer{background-color: black;
+                display: grid;
+            grid-template-columns: 0.7fr 1fr;
+            font-size: small;
+            color: rgb(255, 255, 255);}
+            
+            #LogoDeezer{width: 100%;
+            height: 100%;}
+            
+            #LogoFooter{height: 75px;}
+            #Nombres-Integrantes{height: 60px;
+            padding-top: 18px;}
         
-        #LogoDeezer{width: 120px;
-        height: 70px;
-}
         
-        #LogoFooter{height: 75px;
-        display: flex;
-        justify-content: flex-end;}
-        #Nombres-Integrantes{height: 60px;
-        padding-top: 18px;}
-
         @media(min-width: 410px){
             li{list-style-type: none;}
             body{font-family: 'Baloo Tammudu 2', cursive;
@@ -365,6 +361,10 @@ background-position: center;}
                 text-decoration: none;
                  
             }
+            #Footer{grid-template-columns: 0.5fr 1fr;}
+            #Nombres-Integrantes{padding-top: 29px;
+                font-size: 15px;}
+
         } 
         
         @media(min-width: 1200px){
@@ -472,5 +472,9 @@ background-position: center;}
                     text-decoration: none;
                      
                 }
+                #Footer{grid-template-columns: 0.4fr 1fr;}
+                #Nombres-Integrantes{padding-top: 24px;
+                    font-size: 22px;}
+                    
             }
 
