@@ -118,6 +118,8 @@ padding-top: 5px;}
             display: flex;
             justify-content: center;
         }
+        .none{display: none; 
+        }
         .letra{
             font-family: 'Nunito Sans', sans-serif;
         }
@@ -256,12 +258,13 @@ padding-top: 5px;}
                 .infocancion{
                     margin: 0px 0px 0px 30px;
                 }
-                .subrow2{
-                    display: flex;
-                    height: 40px;
+                #subrow2{display: none;
+                }
+                .none{ display: flex;
+                    height: 35px;
                     flex-direction: row;
-                    justify-content: space-between;
-                    margin: 0px 0px 50px 10px;
+                    align-items: center;
+                    margin: 10px 0px 0px 0px;
                 }
                 #Footer{grid-template-columns: 0.4fr 1fr;}
                 #Nombres-Integrantes{padding-top: 24px;
