@@ -51,15 +51,14 @@ background-position: center;}
             padding-left: 10px;}
         #Modelo-playlist{display: grid;
             grid-template-columns: 45% 55%;}
-        #Foto{
-            display: flex;
-    justify-content: flex-end;
-    position: static;
-        }
-        .tamaño{
-            height: 150px;
-            width: 150px;
-        }
+            #Foto{
+                margin: 10px;
+                height: 150px;
+                width: 150px;}
+                    .tamaño{
+                        height: 100%;
+                        width: 100%;
+                    }
         #Texto-playlist{padding-left: 5px;
         font-size: large;}
         #Nombre-p{font-size: 10px;
@@ -154,7 +153,9 @@ background-position: center;}
         
         
             @media(min-width: 410px){
-               
+                #Foto{
+                    margin: 10px 0px 0px 50px;
+                }
                 .subrow1{display: grid;
                     grid-template-columns: 50% 50%;
                     height: 170px;
@@ -192,7 +193,8 @@ background-position: center;}
             }
 
             @media(min-width: 700px){
-                .tamaño{
+                #Foto{
+                    margin: 10px 0px 0px 150px;
                     height: 200px;
                     width: 200px;
                 }
@@ -240,10 +242,11 @@ background-position: center;}
             } 
             
             @media(min-width: 1200px){
-                    .tamaño{
-                        height: 280px;
-                        width: 280px;
-                    }
+                #Foto{
+                    margin: 10px 0px 0px 350px;
+                    height: 280px;
+                    width: 280px;
+                }    
                     
                     #Nombre-p{font-size: 25px;
                     height: 65px;}

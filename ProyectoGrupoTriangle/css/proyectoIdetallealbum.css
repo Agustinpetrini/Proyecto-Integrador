@@ -36,11 +36,6 @@ padding-top: 5px;}
     #Ajust{display: flex; justify-content: center;
         font-size: 20px;
         padding-top: 8px;}
-    
-        #grid-container{ width: 100%;
-            height: 100%;
-            grid-template-rows: 40% 40% 20%;
-            }
 
         #Playlists{
             background-color:  rgb(26, 25, 25);
@@ -51,14 +46,14 @@ padding-top: 5px;}
             padding-left: 10px;}
         #Modelo-playlist{display: grid;
             grid-template-columns: 45% 55%;}
-        #Foto{
-            display: flex;
-    justify-content: flex-end;
-    position: static;
-        }
+         
+            #Foto{
+    margin: 10px;
+    height: 150px;
+    width: 150px;}
         .tamaño{
-            height: 150px;
-            width: 150px;
+            height: 100%;
+            width: 100%;
         }
         #Texto-playlist{padding-left: 5px;
         font-size: large;}
@@ -69,15 +64,17 @@ padding-top: 5px;}
         #Artistas{color: white;
             font-size: 12px;
         line-height: 15px;}
-         #row1{
+         
+        #row1{
             background-color:  rgb(26, 25, 25);
             margin: 50px 0px 10px 0px;
             height: 100%;
             width: 100%;
+            
         }
         .subrow1{display: grid;
             grid-template-columns: 50% 50%;
-            height: 200px;
+            height: 100%;
             width: 100%;
             background-position: center;
         }
@@ -147,7 +144,9 @@ padding-top: 5px;}
  
 
         @media(min-width: 410px){
-               
+               #Foto{
+                   margin: 10px 0px 0px 50px;
+               }
                 .subrow1{display: grid;
                     grid-template-columns: 50% 50%;
                     height: 170px;
@@ -185,7 +184,8 @@ padding-top: 5px;}
             }
 
     @media(min-width: 700px){
-            .tamaño{
+            #Foto{
+                margin: 10px 0px 0px 150px;
                 height: 200px;
                 width: 200px;
             }
@@ -233,11 +233,11 @@ padding-top: 5px;}
         } 
         
         @media(min-width: 1200px){
-                .tamaño{
+                #Foto{
+                    margin: 10px 0px 0px 350px;
                     height: 280px;
                     width: 280px;
-                }
-                
+                }    
                 #Nombre-p{font-size: 25px;
                 height: 65px;}
                 #N-de-temas{color: white;
