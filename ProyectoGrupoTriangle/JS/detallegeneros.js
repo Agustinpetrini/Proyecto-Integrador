@@ -16,7 +16,7 @@ fetch('https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre/' + gene
         
         document.querySelector('#Nombre-p').innerHTML += `<h1>`+datos.name+`</h1>` ;
             
-        document.querySelector('#Foto').innerHTML += `<img src="`+datos.picture+`" class="tamaño" alt="Imagen del genero">` ;
+        document.querySelector('#Foto').innerHTML += `<img src="`+datos.picture+`" alt="Imagen del genero" id="Imagen-Genero">` ;
         
 
 
