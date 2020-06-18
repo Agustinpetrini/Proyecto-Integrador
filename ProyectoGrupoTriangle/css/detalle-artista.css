@@ -4,7 +4,7 @@ text-decoration: none;}
 body{font-family: 'Baloo Tammudu 2', cursive;
     color: crimson;
 margin: 0;
-background-color: rgb(37, 37, 37);}
+background-color: rgb(26, 25, 25);}
 
 #Barrita{ color: crimson;
     background-color: black;
@@ -37,26 +37,73 @@ height: 38px;}
     padding-top: 8px;
     height: 38px;}
 
-#Foto{padding-top: 38px;}
+#Foto{padding-top: 38px;
+height: 239.2px;
+}
+#Imagen{height: 100%;
+width: 100%;}
 #Nombre-Seguidores{display: grid;
 grid-template-columns: 1fr 0.1fr 1fr;
 background-color: rgb(143, 12, 38, 0.3);}
 #Titulo-top{padding-left: 5px;
-font-size: 25px;
-height: 30px;}
+font-size: 28px;
+height: 30px;
+display: grid;
+justify-content: center;}
 #Lista{color: white;}
+#Top-canciones{display: grid;
+    justify-content: center;}
+#Footer{background-color: black;
+    display: grid;
+grid-template-columns: 0.7fr 1fr;
+font-size: small;
+color: rgb(255, 255, 255);}
+
+#LogoDeezer{width: 100%;
+height: 100%;}
+
+#LogoFooter{height: 75px;}
+#Nombres-Integrantes{height: 60px;
+padding-top: 18px;}
 
 @media(min-width: 768px){
-    #Imagen{width: 400px; height: 300px;
-        border-radius: 100%;}
+    #Contenedor-Foto{display: grid;
+        justify-content: center;}
+    #Foto{padding-top: 50px; padding-bottom: 10px;
+        width: 250px;
+        height: 225px;}
+    #Imagen{width: 100%;
+        height: 100%;
+        border-radius: 100%}
+    #Contenedor-Nombre-Seguidores{display: grid;
+            justify-content: center;}
+    #Nombre-Seguidores{width: 550px;}
+    #Nombres-Integrantes{padding-top: 29px;
+            font-size: 15px;}
+    #Footer{grid-template-columns: 0.5fr 1fr;}
 }
 
 @media(min-width: 1024px){
-    #Foto{padding-top: 45px;}
-  #Imagen{width: 450px; height: 350px;
-border-radius: 100%;} 
-#Nombre{font-size: 28px;}
-#Seguidores{font-size: 28px;}
-#Lista{font-size: 20px;}
-#Titulo-top{font-size: 36px;}
+    #Contenedor-Foto{display: grid;
+    justify-content: center;}
+    #Foto{padding-top: 50px; padding-bottom: 10px;
+    width: 500px;
+    height: 300px;
+    display: grid; justify-content: center;}
+    #Imagen{width: 325px;
+    height: 300px;
+    border-radius: 100%}
+    #Contenedor-Nombre-Seguidores{display: grid;
+        justify-content: center;}
+    #Nombre-Seguidores{width: 925px;}
+    #Nombre{font-size: 28px;}
+    #Seguidores{font-size: 28px;}
+    #Punto{font-size: 28px;}
+    #Lista{font-size: 20px;}
+    #Titulo-top{font-size: 36px;
+        display: grid;
+    justify-content: center;}
+    #Nombres-Integrantes{padding-top: 24px;
+    font-size: 22px;}
+    #Footer{grid-template-columns: 0.4fr 1fr;}
 }
