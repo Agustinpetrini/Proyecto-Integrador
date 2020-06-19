@@ -6,7 +6,9 @@
   <link rel="stylesheet" href="css/playlist.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Triangle Music-Biblioteca</title>
+    <script type="text/javascript" src="JS/playlist.js"></script>
+    <script type="text/javascript" src="JS/detalletrack.js"></script>
+    <title>playlist</title>
 </head>
 <body>
         <div id="BarraTop">
@@ -18,39 +20,28 @@
               <div id="Perfil"><i class="fas fa-address-book"></i></div>
             </div>
         </div>
-        <div id="Playlists">
-            <div id="Tus-playlists">Tus Playlists</div>
-            <div id="Modelo-playlist">
-                <div id="Foto"><img src="imagenes/Cerveza.jpg" alt="Cerveza" img height="100%" img width="100%"></div>
-                <div id="Texto-playlist">
-                    <div id="Nombre-p" align="center">Para manijear</div>
-                    <div id="N-de-temas"> Número de canciones: 32</div>
-                    <div id="Artistas">Artistas: Justin Quiles, Kevin Roldan, Duki, Ysy A, Neo Pistea, Ozuna, Nengo Flow, Khea, ...</div>
-                </div>
+        <div id="grid-container">
+            <div id="row1">
+                <div class="subrow1">
+                <div id="Foto"><img src="imagenes/Residente.jpg" class="tamaño" alt="Imagen de la cancion"></div>
+                <div class="infocancion">
+                    <div id="Nombre-p" ><h1>playlist</h1></div>
+                    <div class="letra none">
+                      <a  class="botonreproducir"><i class="fas fa-play"></i>REPRODUCIR</a> <a href="javascript" class="botonbliblioteca" onclick=""><i class="fas fa-plus"></i>AGREGAR A LA BLIBLIOTECA</a>  <i class="fas fa-ellipsis-v white"></i>
+                     </div>
+              </div>
             </div>
-            <div id="Modelo-playlist">
-                <div id="Foto"><img src="imagenes/guitarra_electrica.jpg" alt="Guitarra" img height="100%" img width="100%"></div>
-                <div id="Texto-playlist">
-                    <div id="Nombre-p" align="center">Rock & Blues</div>
-                    <div id="N-de-temas"> Número de canciones: 42</div>
-                    <div id="Artistas">Artistas: Guns n Roses, Pink Floyd, AC/DC, Garry Moore, Led Zeppelin, Artic Monkeys, Queen, Gustavo cerati, ...</div>
+              <div class="letra" id="subrow2">
+                  <a class="botonreproducir"><i class="fas fa-play"></i>REPRODUCIR</a> <a href="javascript" class="botonbliblioteca"><i class="fas fa-plus"></i>AGREGAR A LA BLIBLIOTECA</a>  <i class="fas fa-ellipsis-v white"></i>
+                 </div>
+          </div>
+          </div>
+            
+     </div>
+        <footer id="Footer">
+                <div id="LogoFooter"><img src="imagenes/LogoDeezer.jpg" id="LogoDeezer" alt=""></div>
+                <div id="Nombres-Integrantes" align="center">Made by: Santiago Genoni, Camila Escontrela, Agustin Petrini
                 </div>
-            </div>
-            <div id="Modelo-playlist">
-                <div id="Foto"><img src="imagenes/ViolinHD.jpg" alt="Violin" img height="100%" img width="100%"></div>
-                <div id="Texto-playlist">
-                    <div id="Nombre-p" align="center">Música Clasica</div>
-                    <div id="N-de-temas"> Número de canciones: 14</div>
-                    <div id="Artistas">Artistas: Bach, Beethoven, Mozart, Rachmaninov, Vivaldi, Lizt, Paganini, Chopin, ...</div>
-                </div>
-            </div>
-            <div id="Modelo-playlist">
-                <div id="Foto"><img src="imagenes/trap.jpg" alt="trap" img height="100%" img width="100%"></div>
-                <div id="Texto-playlist">
-                    <div id="Nombre-p" align="center">Solo trap</div>
-                    <div id="N-de-temas"> Número de canciones: 44</div>
-                    <div id="Artistas">Artistas: Duki, Ysy A, Neo Pistea, Paco Amoroso, Cartiel, CRO, FMK, Cazzu, Bhavi, Trueno, ...</div>
-                </div>
-            </div>
+              </footer>
 </body>
 </html>
