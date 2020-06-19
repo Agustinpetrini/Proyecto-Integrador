@@ -12,21 +12,30 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-
 <body style="background-color: rgb(26, 25, 25);">
 <div id="Contenido">
     <div id="BarraTop">
             <div id="Barrita">
                 <div id="Ajust"><i class="fas fa-cog"></i></div>
-                <div id="ParaTi">PARA TI</div>
-                <div id="Logo"><i class="fab fa-accusoft"></i></div>
+                <div id="search">
+                    <form action="resultado.html" method="GET">
+                        <input id="buscador" type="text" name="busqueda">
+                        <button type="submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </form>
+                </div>
+                
+                <div id="Logo"><a href="index.html"></a><i class="fab fa-accusoft"></i></div>
+                
                 <div id="Biblio"><a href="playlist.html">BIBLIOTECA</a></div>
                 <div id="Perfil"><i class="fas fa-address-book"></i></div>
+               
             </div>
     </div>
-          
-<br>
-<br>
+    <br>
+    <br>
+    
 <div id="myCarousel" class="carousel slide" data-ride="carousel">  
             <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -58,6 +67,7 @@
 
 </div>
 
+
 <br>
 <div id="Recom" style="color: crimson;">Géneros Recomendados</div>
 <div id="Contenedor-R-A"><div id="generos-recomendados"></div></div>
@@ -80,5 +90,6 @@
     <div id="Nombres-Integrantes" align="center">Made by: Santiago Genoni, Camila Escontrela, Agustin Petrini
     </div>
 </footer>
+
 </body>
 </html>
